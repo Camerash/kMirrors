@@ -247,7 +247,7 @@ namespace kTools.Mirrors
             reflectionCamera.projectionMatrix = projectionMatrix;
             
             // Miscellanious camera settings
-            reflectionCamera.cullingMask = layerMask;
+            // reflectionCamera.cullingMask = layerMask;
             reflectionCamera.allowHDR = allowHDR == MirrorCameraOverride.UseSourceCameraSettings ? camera.allowHDR : false;
             reflectionCamera.allowMSAA = allowMSAA == MirrorCameraOverride.UseSourceCameraSettings ? camera.allowMSAA : false;
             reflectionCamera.enabled = false;
